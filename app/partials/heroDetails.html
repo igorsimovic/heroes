@@ -1,0 +1,11 @@
+<div class="heroes">
+	<div class="container">
+		<h1>Hero Details</h1> 
+		<ul ng-if="hero" class="selected-box">
+			<li>ID: {{hero.id}}</li>
+			<li>NAME:
+				<input ng-model="hero.name" type="text">
+			</li>
+		</ul>
+	</div>
+</div>
